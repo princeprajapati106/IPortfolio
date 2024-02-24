@@ -146,8 +146,8 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #27283A;
-  color: #fff;
+  background: #ffffff;
+  color: #000000; 
   text-decoration: none;
 }
 
@@ -182,6 +182,12 @@ h6 {
 .nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
+  width: 173%;
+}
+.nav-menu>ul>li :hover{
+  background: #343a40;
+  box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.2);
+  border-radius: 5px;
 }
 
 .nav-menu a,
@@ -208,14 +214,12 @@ h6 {
 .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
+  background: #343a40;
+  box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.2);
+  border-radius: 5px;
 }
 
-.nav-menu a:hover i,
-.nav-menu .active i,
-.nav-menu .active:focus i,
-.nav-menu li:hover>a i {
-  color: #27283A;
-}
+
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
