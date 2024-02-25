@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  
 }
 
 a {
@@ -46,7 +47,7 @@ h6 {
 /* Hide scrollbar for IE, Edge and Firefox */
 .example {
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  scrollbar-width: auto;  /* Firefox */
 }
 
 /*--------------------------------------------------------------
@@ -100,6 +101,7 @@ h6 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 15px;
     border-radius: 10px;
+    scrollbar-width: none;
 }
 
 #header .profile img {
